@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+    Post::create([
+    'title' => 'Judul Ketiga',
+    'category_id'=> 2,
+    'author' => 'cassain',
+    'slug' => 'judul-ketiga',
+    'excerpt'=> 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus commodi assumenda quia rerum nemo illo est tempore ,quae cum nesciunt corporis libero',
+    'body'=> "pLorem ipsum dolor sit amet consectetur adipisicing elit. Possimus commodi assumenda quia rerum nemo illo est tempore iusto quod vitae exercitationem ad ut voluptatem,
+     quae cum nesciunt corporis quis atque laborum impedit hic libero. Voluptas explicabo eos eligendi itaque maxime. Doloribus, numquam, possimus, non fuga dignissimos quas sint
+     placeat libero nihil modi quisquam quis consequatur aliquid maiores in. In, laudantium ab. Commodi, molestias incidunt! Sint enim aspernatur odit accusamus nesciunt porro 
+     excepturi doloribus maxime molestiae sit pariatur inventore voluptatibus, esse consequatur ab, rerum sapiente beatae itaque delectus ea. Eum officia neque ipsam odit. 
+     Minima vero fuga qui ea. Nesciunt, natus!"
+    ])
+</body>
+
+Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus commodi assumenda quia rerum nemo illo est tempore iusto quod vitae exercitationem ad ut voluptatem,
+ quae cum nesciunt corporis quis atque laborum impedit hic libero. Voluptas explicabo eos eligendi itaque maxime. Doloribus, numquam, possimus, non fuga dignissimos quas sint
+  placeat libero nihil modi quisquam quis consequatur aliquid maiores in. In, laudantium ab. Commodi, molestias incidunt! Sint enim aspernatur odit accusamus nesciunt porro 
+  excepturi doloribus maxime molestiae sit pariatur inventore voluptatibus, esse consequatur ab, rerum sapiente beatae itaque delectus ea. Eum officia neque ipsam odit. 
+  Minima vero fuga qui ea. Nesciunt, natus!
+</html>
+
+Category::create([
+'name'=>'Programming',
+'slug'=>'programming'
+])
+Category::create([
+'name'=>'Web Desain',
+'slug'=>'web-desain'
+])
+Category::create([
+'name'=>'Personal',
+'slug'=>'personal'
+])
+
+Comic::create([
+'judul'=>'One Piece',
+'slug'=>'one-piece',
+'category'=>'Adventure',
+'penulis'=>'Echiri Oda',
+'penerbit'=>'Mappa'
+])
